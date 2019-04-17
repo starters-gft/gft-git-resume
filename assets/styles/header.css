@@ -1,0 +1,35 @@
+.header {
+  position: relative;
+
+  background-image: url("../img/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: right center;
+
+  height: 100vh;
+}
+
+.header > .border {
+  width: 100%;
+  height: 200px;
+
+  padding-left: 70px;
+
+  position: absolute;
+  bottom: 0;
+}
+
+.header > .border > .greeting {
+  display: block;
+  position: relative;
+
+  font-size: 52px;
+  font-weight: 800;
+  color: #FFF;
+  text-shadow: 2px 1px 1px black;
+}
+
+.header > .border > .greeting.-subtitle {
+  font-weight: 200;
+}
