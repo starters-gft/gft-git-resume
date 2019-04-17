@@ -1,4 +1,4 @@
-# Paulo - Comandos Utilizados / aprendidos
+# Paulo - Comandos Utilizados / Aprendidos
 
 
 
