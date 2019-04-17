@@ -1,10 +1,4 @@
 
-teste
-[
-    edfuebfiewf
-    fefw
-    
-]
 
 # Project Git
 
