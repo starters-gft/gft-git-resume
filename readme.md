@@ -1,6 +1,6 @@
 ## README do projeto start
 
-# Vinicius - COMANDOS APRENDIDOS
+# Vinicius - Comandos Aprendidos
 
 | Comandos GIT                                              | Descrição                                                                   |
 | --------------------------------------------------------- |:--------------------------------------------------------------------------: | 
