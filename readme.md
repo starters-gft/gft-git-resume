@@ -3,13 +3,13 @@
 
 
 |    Comandos    |Descrição                          |
-|----------------|-------------------------------|-----------------------------|
+|----------------|-------------------------------|
 |git config -- 'global'  user.name|`'Configuração do Username do github'`            |
 |git config --global user.email          |`"Configuração do Email do github"`            |
 |git init          |`Cria pasta. git para repositorio`|
 |git add. |`'Adiciona todos os arquivos ao Index'`|
 |git commit -m "comentario das alterações"|`"Envia os arquios para o HEAD, mas nao para o repositorio"`|
-|git remote add origin [inseree o URL]|`Envia os arquivos para github `|
+|git remote add origin [insere o URL]|`Envia os arquivos para github `|
 |git push -u origin master|`'Envia os arquivos para o nivel master'`            |
 |git status          |`"Mostra os arquivos do branch para enviar"`            |
 |git diff           |`Exibe todas as diferenças entre sua cópia local e o índice sincronizado`|
