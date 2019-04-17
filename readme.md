@@ -1,30 +1,35 @@
-# Leonardo -> COMANDOS APRENDIDOS
+## Ariel -> COMANDOS APRENDIDOS
 
-| Comando | Descrição |
-|:----:| :----: |
-| git git config --global user.name '//nome' | Initial config - define nome |
-| git config --global user.email '//email' | Initial config - define email |
-| git init | Cria a pasta inicial .git |
-| git add //archive |  O arquivo torna-se pronto para commitar |
-| git commit -m "//mensagem" | Commita os arquivos, sendo a mensagem seu rótulo |
-| git remote add //endPointName //url do github | Determinar o acesso remoto da pasta .git para url do github |
-| git push -u //endPointName //branch | sobe os arquivos para o github alocando na branch |
-| git clone //url | Clona o projeto da url do github |
-| git status | retorna o status da branch atual |
-| git dif //archive | Mostra as alterações do arquivo |
-| git log | historico de commits |
-| git pull //EndPointName // branch | Baixa os arquivos do github |
-| git checkout -b //TipoDaBranch/nomeDaTask | Mudar de branch. -b cria a branch,caso não exista |
-| git reset --hard | reseta até o último commit |
-| git branch | Lista a branchs locais, ou seja, nas quais trabalhou |
-| git branch -a | Lista todas a branchs disponíveis no github |
-| git log --graph | Mostra a árvore de alterações |
 
-## Branch:
 
-| Tipo | Descrição |
-| :---: | :---: |
-| master  | código está em produção |
-| develop | código que está em desenvolvimento |
-| uat | código está em homologação |
-| feature | código de funcionalidades |
+|       COMMAND         |USE                                                   |
+|----------------|-------------------------------
+|`git init`|initializes git repo in the directory
+|`git config (--global) user.name "[insert username]"  `     |sets the username   
+|`git config (--global) user.email "[insert email]"`|set the email
+|`git add` 	|stages a file
+|`git commit -m "commit message"`|commits staged files with message
+|`git remote add origin [insert repo URL] `|set the origin of the repo
+| `git push -u origin master`|pushes commit to the master branch in the origin for the first time
+|`git checkout -b feature/nome`|create branch and changes to it
+|`git checkout master`|change to branch
+| `git pull`| gets any new commits and applies to the project
+
+
+### Comandos utilizados
+
+    git init
+    git config user.name "aiml150"
+    git config user.email "ariel.molina@gft.com"
+    echo "bem bestinha" >> bemBestinha.txt
+    git add .\bemBestinha.txt
+    git commit -m "commit bestinha"
+    git status
+    git remote add origin https://github.com/starters-gft/aimlGit.git
+    git push -u origin master
+    rm *
+    git clone https://github.com/starters-gft/aimlGit.git
+    git checkout -b FEATURE/mudar-texto
+    git add .
+    git commit -m "Texto alterado"
+    git push origin FEATURE/mudar-texto
